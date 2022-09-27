@@ -1,0 +1,10 @@
+.nav {
+    color: rgb(71, 172, 212);
+}
+
+.proPhoto {
+    display: flexbox;
+    max-height: 300px;
+    max-width: auto;
+    margin-top: 0px;
+}
