@@ -18,46 +18,65 @@
   </head>
 
   <body>
-    <nav
-      class="navbar navbar-expand-lg rounded-3 m-1 border border-3"
-      id="navbar"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">David Healy</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Info</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">My Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Contact Me</a>
-            </li>
-          </ul>
+    <div class="fixed-top">
+      <nav
+        class="navbar navbar-expand-lg rounded-3 m-1 border border-3"
+        id="navbar"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">David Healy</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact Me</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <img
-      src="./public/assets/profile-image.jpg"
-      class="proPhoto img-thumbnail rounded-circle float-end"
-      alt="..."
-    />
+      </nav>
+      <img
+        src="./public/assets/profile-image.jpg"
+        class="proPhoto img-thumbnail rounded-circle float-end fixed-top"
+        alt="..."
+      />
+    </div>
+
+    <div class="card m-3">
+      <div class="card-header">Biography</div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          I started the DU Full Stack coding bootcamp at the end of July, 2022.
+          It was time for me to make a career move and coding seemed like the
+          best option. It's been tough and I've had to put a lot of extra time
+          in to make sure I was happy with my progression but I'm truly happy
+          with what I've learned in the 7 weeks I've been in this course. Im
+          Looking forward to joining a team that will encourage and push me to
+          grown.
+        </li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+      </ul>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -4,7 +4,7 @@ body {
 
 #navbar {
     background-color: rgb(124, 195, 223);
-    z-index: 0;
+    z-index: 1;
     background: #ffffff;
 	background: #F8F8F8; 
 	border: solid #BDBDBD 0; 
@@ -15,13 +15,27 @@ body {
 
 .proPhoto {
     position: relative;
+    margin-right: 5px;
+    margin-left: 15px;
+    margin-top: -70px;
     max-height: 300px;
     max-width: auto;
-    margin-top: -70px;
-    z-index: 1;
+    z-index: 2;
 	background: #F8F8F8; 
 	border: solid #BDBDBD 0; 
 	box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.4)  ; 
 	-webkit-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.4)  ; 
 	-moz-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.4)  ; 
 }
+
+.card { 
+    position: relative;
+    margin-top: 40px;
+    z-index: 0;
+    background: #F8F8F8; 
+	border: solid #BDBDBD 0; 
+	box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.4)  ; 
+	-webkit-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.4)  ; 
+	-moz-box-shadow: -14px 21px 22px rgba(0, 0, 0, 0.4)  ; 
+}
+
